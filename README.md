@@ -2,6 +2,7 @@
 
 Bank Customer Engagement & Churn Prevention Analysis
 Team Project: Predictive Analytics for Retail Banking Retention
+Team Members: Christian Shannon, Ashley Love, Mugtaba Awad, and Kristian Livingston
 
 Project Overview
 This analysis transforms the UCI Bank Marketing dataset (41,188 records from Portuguese bank telemarketing campaigns, 2008-2010) from a term deposit subscription prediction task into a customer churn prevention framework. By reframing "no" responses as disengagement signals, we identify at-risk customers and provide actionable strategies to shift from inefficient mass calling to targeted retention efforts.
@@ -22,8 +23,6 @@ Top 10 Churn Drivers:
 10. pdays
 
 Critical Risk Zone: Middle-aged customers (30-50) with calls <200 seconds during unfavorable economic conditions.
-
-Team Members: Christian Shannon, Ashley Love, Mugtaba Awad, and Kristian Livingston
 
 Technical Stack
 Core: pandas, scikit-learn, matplotlib, seaborn
