@@ -1,17 +1,19 @@
 # DSC-450-Applied-Data-Science-Project-1
 
-Bank Customer Engagement & Churn Prevention Analysis
+## Bank Customer Engagement & Churn Prevention Analysis
+### Team Project: Predictive Analytics for Retail Banking Retention
+#### Team Members: Christian Shannon, Ashley Love, Mugtaba Awad, and Kristian Livingston
 
-Team Project: Predictive Analytics for Retail Banking Retention
-
-Team Members: Christian Shannon, Ashley Love, Mugtaba Awad, and Kristian Livingston
-
-Project Overview
+#### Project Overview 
 This analysis transforms the UCI Bank Marketing dataset (41,188 records from Portuguese bank telemarketing campaigns, 2008-2010) from a term deposit subscription prediction task into a customer churn prevention framework. By reframing "no" responses as disengagement signals, we identify at-risk customers and provide actionable strategies to shift from inefficient mass calling to targeted retention efforts.
 
-Business Impact: Model achieves 89.1% accuracy and 49.5% precision when targeting top 10% highest-probability customers (vs. 11.3% baseline conversion).
+#### Business Impact
+Model achieves 89.1% accuracy and 49.5% precision when targeting top 10% highest-probability customers (vs. 11.3% baseline conversion).
 
-Key Findings
+#### Critical Risk Zone
+Middle-aged customers (30-50) with calls <200 seconds during unfavorable economic conditions.
+
+#### Key Findings
 Top 10 Churn Drivers:
 1. duration (call length - #1 predictor)
 2. euribor3m (economic rates)
@@ -24,18 +26,16 @@ Top 10 Churn Drivers:
 9. cons.conf.idx
 10. pdays
 
-Critical Risk Zone: Middle-aged customers (30-50) with calls <200 seconds during unfavorable economic conditions.
+#### Technical Stack
+- Core: pandas, scikit-learn, matplotlib, seaborn
+- Imbalance Handling: imblearn (SMOTE)
+- Preprocessing: ColumnTransformer, StandardScaler, OneHotEncoder
+- Models: LogisticRegression, RandomForestClassifier
+- Evaluation: ROC-AUC, Precision-Recall curves, confusion matrices
 
-Technical Stack
-Core: pandas, scikit-learn, matplotlib, seaborn
-Imbalance Handling: imblearn (SMOTE)
-Preprocessing: ColumnTransformer, StandardScaler, OneHotEncoder
-Models: LogisticRegression, RandomForestClassifier
-Evaluation: ROC-AUC, Precision-Recall curves, confusion matrices
-
-Ethical Considerations
-Anonymized data only (no PII)
-GDPR-compliant contact limits (max 3 calls)
-Transparent feature importance (no black box)
-No demographic discrimination
-Easy opt-out mechanisms required for deployment
+#### Ethical Considerations
+- Anonymized data only (no PII)
+- GDPR-compliant contact limits (max 3 calls)
+- Transparent feature importance (no black box)
+- No demographic discrimination
+- Easy opt-out mechanisms required for deployment
