@@ -3,6 +3,7 @@
 ## Bank Customer Engagement & Churn Prevention Analysis
 ### Team Project: Predictive Analytics for Retail Banking Retention
 #### Team Members: Christian Shannon, Ashley Love, Mugtaba Awad, and Kristian Livingston
+#### Presentation Link: https://www.canva.com/design/DAG9koWKaK4/vhbgQZ2pM8lB56cZI8DwKg/edit?utm_content=DAG9koWKaK4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
 
 #### Project Overview 
 This analysis transforms the UCI Bank Marketing dataset (41,188 records from Portuguese bank telemarketing campaigns, 2008-2010) from a term deposit subscription prediction task into a customer churn prevention framework. By reframing "no" responses as disengagement signals, we identify at-risk customers and provide actionable strategies to shift from inefficient mass calling to targeted retention efforts.
