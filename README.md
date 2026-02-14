@@ -1,5 +1,3 @@
-# DSC-450-Applied-Data-Science-Project1
-
 ## Bank Customer Engagement & Churn Prevention Analysis
 ### Team Project: Predictive Analytics for Retail Banking Retention
 #### Team Members: Christian Shannon, Ashley Love, Mugtaba Awad, and Kristian Livingston
