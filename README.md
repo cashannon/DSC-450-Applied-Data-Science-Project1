@@ -227,19 +227,3 @@ From the written proposal and stakeholder Q&A:
 
 - **Customer Autonomy**
   - Strong recommendation to implement easy opt-out mechanisms in any production deployment and ensure transparent messaging about data use. 
-
----
-
-## 9. Repository Structure
-
-```text
-.
-├─ README.md                  # This file
-├─ data/
-│  └─ bank-additional-full.csv  # UCI Bank Marketing dataset (not included by default)
-├─ notebooks/
-│  ├─ P1-S1-Data-Wrangling.ipynb
-│  ├─ P1-S2-Data-Modeling.ipynb
-│  └─ P1-S3-Data-Visualization.ipynb
-└─ reports/
-   └─ Predictive-Engagement-Modeling-For-Retail-Banking.pdf
